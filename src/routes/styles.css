@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Onest:wght@100..900&display=swap');
+
+@font-face {
+	font-family: "Zuume";
+	src: url($lib/fonts/ZuumeSoftLight.ttf) format("truetype");
+
+	font-weight: light;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Zuume";
+	src: url($lib/fonts/ZuumeSoftRegular.ttf) format("truetype");
+
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Zuume";
+	src: url($lib/fonts/ZuumeSoftMedium.ttf) format("truetype");
+
+	font-weight: medium;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Zuume";
+	src: url($lib/fonts/ZuumeSoftBold.ttf) format("truetype");
+
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Zuume";
+	src: url($lib/fonts/ZuumeSoftBlack.ttf) format("truetype");
+
+	font-weight: black;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Zuume";
+	src: url($lib/fonts/ZuumeSoftItalic.ttf) format("truetype");
+
+	font-weight: normal;
+	font-style: italic;
+}
+
+.font-zuume {
+	font-family: "Zuume";
+}
+
+.font-onest {
+	font-family: 'Onest', Arial;
+}
+
+/* .font-marquee {
+	font-family: "Akshar";
+} */
+body,
+html {
+	background-color: #1d2025;
+	--m3-font: 'Onest', Arial;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	text-rendering: subpixel-antialiased;
+}
