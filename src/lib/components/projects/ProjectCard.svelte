@@ -2,12 +2,12 @@
     import GitCommitHorizontal from "lucide-svelte/icons/git-commit-horizontal";
     import { Button } from "m3-svelte";
     import ExternalLink from "lucide-svelte/icons/external-link";
-
     import { formatMarqueeText } from "$lib/utils/index";
     import { Marquee } from "@selemondev/svelte-marquee";
     import "@selemondev/svelte-marquee/dist/style.css";
 
     let {
+        children,
         project = {
             name: "N/A",
             description: "Not provided",
@@ -17,6 +17,7 @@
             tags: ["tag", "here", "placeholder", "tags"],
         },
     } = $props<{
+        children: Snippet,
         project: {
             name: string,
             description: string,
@@ -61,8 +62,20 @@
     const toggleMarquee = () => {
         active = !active;
     }
+
+    function process(func: any) {
+        console.log
+    }
 </script>
 
+
+<!-- {#snippet code(text)}
+    {@html text}
+{/snippet}
+
+{#if children}
+<span>{code(children)}</span>
+{/if} -->
 <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 <!-- svelte-ignore a11y_mouse_events_have_key_events -->
 <div

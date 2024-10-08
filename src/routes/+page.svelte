@@ -20,6 +20,8 @@
     import spotlightLogo from "$lib/images/spotlight-icon.svg";
     import lightableLogo from "$lib/images/lightable-icon.png";
     import bgMountain from "$lib/images/Mountain.svg";
+
+   
     const shuttle = {
         name: "Shuttle",
         description:
@@ -188,7 +190,8 @@
                 <ProjectCard project={spotlight} />
             </div>
             <div class="w-[95vw] max-w-[600px] flex-grow-1">
-                <ProjectCard project={lightable} />
+                <ProjectCard project={lightable}>
+                my slot</ProjectCard>
             </div>
         </div>
     </div>
