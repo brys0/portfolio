@@ -128,7 +128,7 @@
                 {project.name}
             </p>
             <p
-                class="max-w-[80%] font-medium text-stroke-1 text-stroke-white/25 text-muted-foreground drop-shadow"
+                class="max-w-[80%] font-medium text-stroke-1 text-stroke-white/2 text-white/75 text-muted-foreground drop-shadow"
             >
                 {project.description}
             </p>

@@ -111,15 +111,15 @@
         <div class="inline-flex flex-col gap-12" id="social-name-wrapper">
             <div class="inline-flex gap-12 items-center rounded-lg" id="social-name">
                 <div
-                    class="inline-flex flex-col gap-3 items-center rounded-lg h-full justify-center flex-grow-1"
+                    class="inline-flex flex-col gap-3 items-center rounded-lg h-full justify-center flex-grow-1 text-white/90"
                     id="socials"
                 >
                     <Button type="filed" iconType="full">
-                        <Github size={32} />
+                        <Github size={32}  />
                     </Button>
                     <div style="--m3-scheme-primary: 91 81 216;">
                         <Button type="filled" iconType="full">
-                            <Instagram size={32} class="text-white/90" />
+                            <Instagram size={32} />
                         </Button>
                     </div>
 
@@ -153,7 +153,7 @@
                         {/key}
                     </div>
 
-                    <h1 class="font-bold text-8xl self-end" id="name">
+                    <h1 class="font-bold text-8xl self-end text-white/90" id="name">
                         Bryson T.
                     </h1>
                 </div>
@@ -179,7 +179,7 @@
 
        
     </div>
-    <div class="inline-flex justify-center items-center p-6 w-full">
+    <div class="inline-flex justify-center items-center p-6 w-full text-white/90">
         <div class="inline-flex gap-4 flex-wrap px-2">
             <div class="w-[95vw] max-w-[600px] flex-grow-1">
                 <ProjectCard project={shuttle} />

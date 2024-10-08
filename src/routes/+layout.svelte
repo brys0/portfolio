@@ -10,12 +10,6 @@
 	let x = $state(200);
 
 	$effect(() => {
-		// window.addEventListener('transitionend', () => {
-		// 	console.log('Resetting for in-app page router');
-		// 	x = 200;
-		// });
-
-
 		window.addEventListener("popstate", (e) => {
 			const historyState = e.state["sveltekit:history"];
 			
